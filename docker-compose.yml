@@ -12,8 +12,8 @@ services:
         USER_UID: 1000
         USER_GID: 1000
 
-    volumes:
-      - .:/workspaces/smktst-compose:cached
+    # volumes:
+    #   - .:/workspaces/smktst-compose:cached
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
